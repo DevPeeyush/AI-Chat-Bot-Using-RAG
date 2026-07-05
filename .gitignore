@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables (NEVER COMMIT THIS)
+.env
+
+# Streamlit logs
+*.log
+
+# Generated vector database (FAISS)
+faiss_index/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# ====================================================================
+# FILES THAT SHOULD **NOT** BE IGNORED (These MUST be committed to Git)
+# ====================================================================
+# !app.py               - Main Streamlit app
+# !agent.py             - LangGraph agent logic
+# !ingest.py            - Vector DB build script
+# !pyproject.toml       - Project dependencies configuration
+# !uv.lock              - Dependency lock file (ensures exact versions)
+# !README.md            - Project documentation
+# !sample_docs/         - The raw text files needed to build the index
+# ====================================================================
