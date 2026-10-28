@@ -1,4 +1,4 @@
-# LangGraph RAG Demo 🤖
+# ChatBot Using RAG
 
 A demo application showcasing a Retrieval-Augmented Generation (RAG) system built with **LangGraph** and **Streamlit**. It features an AI agent equipped with both mathematical calculation tools and a local knowledge base search. 
 
